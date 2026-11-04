@@ -8,7 +8,6 @@
                 <field name="name"/>
                 <field name="author"/>
                 <field name="year"/>
-                <field name="pages"/>
                 <field name="available"/>
             </list>
         </field>
