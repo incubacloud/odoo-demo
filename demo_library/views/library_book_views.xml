@@ -9,6 +9,7 @@
                 <field name="author"/>
                 <field name="year"/>
                 <field name="available"/>
+                <field name="page_count"/>
             </list>
         </field>
     </record>
@@ -24,6 +25,7 @@
                         <field name="author"/>
                         <field name="year"/>
                         <field name="available"/>
+                <field name="page_count"/>
                     </group>
                 </sheet>
             </form>
