@@ -12,4 +12,3 @@ class LibraryBook(models.Model):
     author = fields.Char()
     year = fields.Integer()
     available = fields.Boolean(default=True)
-    page_count = fields.Integer("Pages")
