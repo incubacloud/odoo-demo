@@ -8,6 +8,7 @@
                 <field name="name"/>
                 <field name="author"/>
                 <field name="year"/>
+                <field name="age"/>
                 <field name="available"/>
                 <field name="page_count"/>
             </list>
