@@ -20,4 +20,4 @@ class LibraryBook(models.Model):
         """Years since the book came out."""
         this_year = fields.Date.today().year
         for book in self:
-            book.age = this_year - book.year
+            book.age = this_year - book.year if book.year else 0
